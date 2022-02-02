@@ -40,7 +40,7 @@ const HeroCard = ({
               </p>
 
               <Link to={`/hero/${id}`}>
-                Más información
+                Más...
               </Link>
 
             </div>
