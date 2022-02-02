@@ -10,7 +10,7 @@ const HeroCard = ({
   characters
 }) => {
 
-  const imgSrc = `/assets/img/${id}.jpg`;
+  const imgSrc = `${process.env.PUBLIC_URL}/assets/img/${id}.jpg`;
 
   return (
     <div className='col animate__animated animate__fadeIn'>

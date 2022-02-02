@@ -18,7 +18,7 @@ const HeroScreen = () => {
     <div className="row mt-5">
 
       <div className="col-4">
-        <img src={`/assets/img/${id}.jpg`}
+        <img src={`${process.env.PUBLIC_URL}/assets/img/${id}.jpg`}
           alt={hero.superhero}
           className='img-thumbnail animate__animated animate__fadeInLeft' />
       </div>
