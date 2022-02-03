@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/heroesApp-react/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/heroesApp-react/static/js/main.c65ec5bb.chunk.js",
-    "main.js.map": "/heroesApp-react/static/js/main.c65ec5bb.chunk.js.map",
+    "main.js": "/heroesApp-react/static/js/main.0b2b5ce0.chunk.js",
+    "main.js.map": "/heroesApp-react/static/js/main.0b2b5ce0.chunk.js.map",
     "runtime~main.js": "/heroesApp-react/static/js/runtime~main.8882e275.js",
     "runtime~main.js.map": "/heroesApp-react/static/js/runtime~main.8882e275.js.map",
-    "static/js/2.87782943.chunk.js": "/heroesApp-react/static/js/2.87782943.chunk.js",
-    "static/js/2.87782943.chunk.js.map": "/heroesApp-react/static/js/2.87782943.chunk.js.map",
+    "static/js/2.41ee01dc.chunk.js": "/heroesApp-react/static/js/2.41ee01dc.chunk.js",
+    "static/js/2.41ee01dc.chunk.js.map": "/heroesApp-react/static/js/2.41ee01dc.chunk.js.map",
     "index.html": "/heroesApp-react/index.html",
-    "precache-manifest.fb9fa9eba46b6953ad78581755e8e982.js": "/heroesApp-react/precache-manifest.fb9fa9eba46b6953ad78581755e8e982.js",
+    "precache-manifest.47961d28c7e710373cefdeceb3c1ebe8.js": "/heroesApp-react/precache-manifest.47961d28c7e710373cefdeceb3c1ebe8.js",
     "service-worker.js": "/heroesApp-react/service-worker.js",
     "static/css/main.5ecd60fb.chunk.css.map": "/heroesApp-react/static/css/main.5ecd60fb.chunk.css.map"
   }
