@@ -19,7 +19,9 @@ const LoginScreen = () => {
 
     dispatch(action);
 
-    navigate('/', { replace: true });
+    const lastPath = localStorage.getItem('lastPath') || '/';
+
+    navigate(lastPath, { replace: true });
   }
 
   return (
