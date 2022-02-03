@@ -1,12 +1,14 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Link, NavLink, useNavigate } from "react-router-dom";
+import { AuthContext } from '../auth/authContext';
 
 const Navbar = () => {
 
+    const { userAuth } = useContext(AuthContext);
     const navigate = useNavigate();
 
     const handleLogout = () => {
-        navigate('login', {replace: true})
+        navigate('login', { replace: true })
     }
 
     return (
@@ -47,7 +49,7 @@ const Navbar = () => {
             <div className="navbar-collapse collapse w-100 order-3 dual-collapse2 d-flex justify-content-end">
                 <ul className="navbar-nav ml-auto">
 
-                    <span className='nav-item nav-link text-info'>Edier</span>
+                    <span className='nav-item nav-link text-info'>{userAuth.name}</span>
 
                     <button
                         className="btn nav-item nav-link"
